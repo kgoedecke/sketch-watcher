@@ -1,0 +1,15 @@
+{
+  "name": "sketch-watcher",
+  "version": "1.0.0",
+  "description": "Watch changes of a Sketch file and extract it when changes happen",
+  "main": "index.js",
+  "repository": "https://github.com/kgoedecke/sketch-watcher",
+  "author": "Kevin Goedecke",
+  "license": "MIT",
+  "scripts": {
+    "watch": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
